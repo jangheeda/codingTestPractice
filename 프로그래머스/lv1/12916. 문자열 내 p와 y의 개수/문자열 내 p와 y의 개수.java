@@ -2,7 +2,7 @@ class Solution {
 	boolean solution(String s) {
 		boolean answer = true;
 		int ct1 = 0, ct2 = 0;
-		;
+		
 		char[] arr = s.toCharArray();
 
 		for (int i = 0; i < arr.length; i++) {
