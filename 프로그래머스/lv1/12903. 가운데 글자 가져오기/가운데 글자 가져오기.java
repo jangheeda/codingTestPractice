@@ -6,10 +6,9 @@ class Solution {
 
                 if(s.length()%2 == 0){
                     answer = String.valueOf(arr[idx-1]) + String.valueOf(arr[idx]);
-                   // answer = String.valueOf(arr2);
                 }else {
                     answer = String.valueOf(arr[idx]);
                 }
                 return answer;
             }
-        }
+}
